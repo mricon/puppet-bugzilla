@@ -1,0 +1,5 @@
+bugzilla::config::admin_realname: 'Bogus Bupkes'
+bugzilla::config::admin_login: 'administrator'
+bugzilla::config::admin_email: 'bogus@example.com'
+bugzilla::config::admin_password: 'bogusbupkes'
+bugzilla::config::site_wide_secret: 'bogusbogusbogusbogusbogusbogusbogusbogusbogusbogusbogusbogusbogus'

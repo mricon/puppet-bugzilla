@@ -1,0 +1,10 @@
+fixtures:
+  forge_modules:
+    apache: 'puppetlabs-apache'
+    stdlib: 'puppetlabs-stdlib'
+    git: 'puppetlabs-git'
+    vcsrepo: 'puppetlabs-vcsrepo'
+    mysql: 'puppetlabs-mysql'
+    concat: 'puppetlabs-concat'
+  symlinks:
+    bugzilla: "#{source_dir}"

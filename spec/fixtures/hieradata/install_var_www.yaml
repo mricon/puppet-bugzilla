@@ -1,0 +1,5 @@
+bugzilla::install_dir: '/var/www/bugzilla'
+bugzilla::cpan_install_dir: '/var/www/bugzilla/local'
+bugzilla::var_dir: '/var/www/bugzilla'
+bugzilla::config::webservergroup: 'www'
+bugzilla::version: 'release-5.1.2'
