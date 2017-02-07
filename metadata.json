@@ -4,9 +4,9 @@
   "author": "Konstantin Ryabitsev",
   "summary": "Puppet module to manage bugzilla installation and configuration",
   "license": "Apache-2.0",
-  "source": "https://github.com/lfit/puppet-bugzilla",
-  "project_page": "https://github.com/lfit/puppet-bugzilla",
-  "issues_url": "https://github.com/lfit/puppet-bugzilla/issues",
+  "source": "https://github.com/mricon/puppet-bugzilla",
+  "project_page": "https://github.com/mricon/puppet-bugzilla",
+  "issues_url": "https://github.com/mricon/puppet-bugzilla/issues",
   "tags": [
     "bugzilla"
   ],
