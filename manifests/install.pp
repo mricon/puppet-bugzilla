@@ -74,6 +74,7 @@ class bugzilla::install inherits bugzilla {
     path    => [ '/bin', '/sbin', '/usr/bin', '/usr/sbin' ],
     cwd     => $bugzilla::install_dir,
     creates => "${bugzilla::cpan_install_dir}/lib/perl5",
+    timeout => 0,
     require => [
       Exec['perl-Makefile.PL'],
       File[$bugzilla::cpan_install_dir],
@@ -143,6 +144,7 @@ class bugzilla::install inherits bugzilla {
     command     => "perl checksetup.pl ${bugzilla::config_dir}/checksetup_answers",
     path        => [ '/bin', '/sbin', '/usr/bin', '/usr/sbin' ],
     cwd         => $bugzilla::install_dir,
+    timeout     => 0,
     subscribe   => [
       File["${bugzilla::config_dir}/localconfig"],
       File["${bugzilla::config_dir}/checksetup_answers"],
